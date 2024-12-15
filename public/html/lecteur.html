@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecteur Vidéo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lecteur Vidéo</h1>
+    <video id="videoPlayer" width="640" height="360" controls autoplay>
+        Votre navigateur ne prend pas en charge la balise vidéo.
+    </video>
+
+    <section id="comments-section">
+        <h2>Commentaires</h2>
+        <div id="commentsContainer"></div>
+
+        <h3>Ajouter un commentaire</h3>
+        <form id="commentForm">
+            <input type="text" id="username" placeholder="Votre nom" required>
+            <textarea id="commentText" placeholder="Votre commentaire" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="http://localhost:8083/scripts.js"></script>
+</body>
+</html>

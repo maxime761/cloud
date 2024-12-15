@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Vidéo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>YourTube</h1>
+    <div class="gallery">
+        <div class="thumbnail" onclick="openVideo('HotelMario.mp4')">
+            <img src="http://localhost:8084/videos/miniature/HotelMario.png" alt="Hotel Mario">
+            <div class="thumbnail-title">Hotel Mario</div>
+        </div>
+        <div class="thumbnail" onclick="openVideo('Sunset.mp4')">
+            <img src="http://localhost:8084/videos/miniature/Sunset.png" alt="Sunset">
+            <div class="thumbnail-title">Sunset</div>
+        </div>
+        <div class="thumbnail" onclick="openVideo('Countdown.mp4')">
+            <img src="http://localhost:8084/videos/miniature/Countdown.png" alt="Countdown">
+            <div class="thumbnail-title">Countdown</div>
+        </div>
+    </div>
+
+    <script src="http://localhost:8083/scripts.js"></script>
+
+</body>
+</html>
